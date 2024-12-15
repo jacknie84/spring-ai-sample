@@ -1,0 +1,9 @@
+spring:
+  ai:
+    vertex:
+      ai:
+        gemini:
+          project-id: ${SPRING_AI_GEMINI_PROJECT_ID}
+          location: asia-southeast1
+          credentials-uri: file:${SPRING_AI_GEMINI_CREDENTIALS_FILE_PATH}
+          transport: REST
